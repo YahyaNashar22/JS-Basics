@@ -1,2 +1,2 @@
 * alert () --- show alert message
-* 
+* prompt ("message for user", "default value") -- ask for input
