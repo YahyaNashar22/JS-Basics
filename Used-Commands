@@ -1,4 +1,4 @@
 * alert () --- show alert message
 * prompt ("message for user", "default value") -- ask for input
 * const <name> = document.querySelector("elemet" || ".class" || "#ID") -- select element
-* <name>.addEventListener('mouseover || mouseout" ,  function(){script} -- change <name> on mouse over and mouise out
+* <name>.addEventListener('mouseover || mouseout" ,  function <or choose name>(){script} -- change <name> on mouse over and mouise out
