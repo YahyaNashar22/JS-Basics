@@ -74,33 +74,40 @@ const replaceElement = (languages) => {
 }
 
 const addElement = (languages) => {
-
+    languages.push("Ruby", "Python");
+    return languages;
 }
 
 const addNumberElement = (numbers) => {
-
+    numbers.unshift(-2 ,-1);
+    return numbers;
+       
 }
 
 const removeFirst = (languages) => {
-
+    languages.shift();
+    return languages;
 }
 
 const removeLast = (languages) => {
-
+    languages.pop();
+    return languages;
 }
 
 const convertStrToArr = (social_arr) => {
-
+  let i =  social_arr.split(',');
+    return i;
 }
 
 const convertArrToStr = (languages) => {
-
+       let i=  languages.join();
+       return i;
 }
 
 const sortArr = (social_arr) => {
-
+        return social_arr.sort();
 }
 
 const invertArr = (social_arr) => {
-
+    return social_arr.reverse();
 }
